@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38BF5BE11C0F57F700B7F613 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BF5BE01C0F57F700B7F613 /* main.m */; };
+		38BF5BE41C0F57F800B7F613 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BF5BE31C0F57F800B7F613 /* AppDelegate.m */; };
+		38BF5BE71C0F57F800B7F613 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BF5BE61C0F57F800B7F613 /* ViewController.m */; };
+		38BF5BEA1C0F57F800B7F613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BF5BE81C0F57F800B7F613 /* Main.storyboard */; };
+		38BF5BED1C0F57F800B7F613 /* Sportify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38BF5BEB1C0F57F800B7F613 /* Sportify.xcdatamodeld */; };
+		38BF5BEF1C0F57F800B7F613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38BF5BEE1C0F57F800B7F613 /* Assets.xcassets */; };
+		38BF5BF21C0F57F800B7F613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BF5BF01C0F57F800B7F613 /* LaunchScreen.storyboard */; };
+		38BF5BFD1C0F57F900B7F613 /* SportifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BF5BFC1C0F57F900B7F613 /* SportifyTests.m */; };
+		38BF5C081C0F57F900B7F613 /* SportifyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BF5C071C0F57F900B7F613 /* SportifyUITests.m */; };
+		38BF5C171C0F7F4E00B7F613 /* SportifyLogoFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = 38BF5C161C0F7F4E00B7F613 /* SportifyLogoFinal.png */; };
+		38BF5C191C0F9EAE00B7F613 /* burgerMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 38BF5C181C0F9EAE00B7F613 /* burgerMenu.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38BF5BF91C0F57F900B7F613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38BF5BD41C0F57F600B7F613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38BF5BDB1C0F57F600B7F613;
+			remoteInfo = Sportify;
+		};
+		38BF5C041C0F57F900B7F613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38BF5BD41C0F57F600B7F613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38BF5BDB1C0F57F600B7F613;
+			remoteInfo = Sportify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38BF5BDC1C0F57F700B7F613 /* Sportify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sportify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BF5BE01C0F57F700B7F613 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38BF5BE21C0F57F700B7F613 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38BF5BE31C0F57F800B7F613 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38BF5BE51C0F57F800B7F613 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38BF5BE61C0F57F800B7F613 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38BF5BE91C0F57F800B7F613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38BF5BEC1C0F57F800B7F613 /* Sportify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sportify.xcdatamodel; sourceTree = "<group>"; };
+		38BF5BEE1C0F57F800B7F613 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38BF5BF11C0F57F800B7F613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38BF5BF31C0F57F800B7F613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BF5BF81C0F57F900B7F613 /* SportifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BF5BFC1C0F57F900B7F613 /* SportifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SportifyTests.m; sourceTree = "<group>"; };
+		38BF5BFE1C0F57F900B7F613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BF5C031C0F57F900B7F613 /* SportifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BF5C071C0F57F900B7F613 /* SportifyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SportifyUITests.m; sourceTree = "<group>"; };
+		38BF5C091C0F57F900B7F613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BF5C161C0F7F4E00B7F613 /* SportifyLogoFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SportifyLogoFinal.png; sourceTree = "<group>"; };
+		38BF5C181C0F9EAE00B7F613 /* burgerMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burgerMenu.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38BF5BD91C0F57F600B7F613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BF5BF51C0F57F900B7F613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BF5C001C0F57F900B7F613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38BF5BD31C0F57F600B7F613 = {
+			isa = PBXGroup;
+			children = (
+				38BF5BDE1C0F57F700B7F613 /* Sportify */,
+				38BF5BFB1C0F57F900B7F613 /* SportifyTests */,
+				38BF5C061C0F57F900B7F613 /* SportifyUITests */,
+				38BF5BDD1C0F57F700B7F613 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38BF5BDD1C0F57F700B7F613 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38BF5BDC1C0F57F700B7F613 /* Sportify.app */,
+				38BF5BF81C0F57F900B7F613 /* SportifyTests.xctest */,
+				38BF5C031C0F57F900B7F613 /* SportifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38BF5BDE1C0F57F700B7F613 /* Sportify */ = {
+			isa = PBXGroup;
+			children = (
+				38BF5C151C0F7F1700B7F613 /* images */,
+				38BF5BE21C0F57F700B7F613 /* AppDelegate.h */,
+				38BF5BE31C0F57F800B7F613 /* AppDelegate.m */,
+				38BF5BE51C0F57F800B7F613 /* ViewController.h */,
+				38BF5BE61C0F57F800B7F613 /* ViewController.m */,
+				38BF5BE81C0F57F800B7F613 /* Main.storyboard */,
+				38BF5BEE1C0F57F800B7F613 /* Assets.xcassets */,
+				38BF5BF01C0F57F800B7F613 /* LaunchScreen.storyboard */,
+				38BF5BF31C0F57F800B7F613 /* Info.plist */,
+				38BF5BEB1C0F57F800B7F613 /* Sportify.xcdatamodeld */,
+				38BF5BDF1C0F57F700B7F613 /* Supporting Files */,
+			);
+			path = Sportify;
+			sourceTree = "<group>";
+		};
+		38BF5BDF1C0F57F700B7F613 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38BF5BE01C0F57F700B7F613 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38BF5BFB1C0F57F900B7F613 /* SportifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				38BF5BFC1C0F57F900B7F613 /* SportifyTests.m */,
+				38BF5BFE1C0F57F900B7F613 /* Info.plist */,
+			);
+			path = SportifyTests;
+			sourceTree = "<group>";
+		};
+		38BF5C061C0F57F900B7F613 /* SportifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38BF5C071C0F57F900B7F613 /* SportifyUITests.m */,
+				38BF5C091C0F57F900B7F613 /* Info.plist */,
+			);
+			path = SportifyUITests;
+			sourceTree = "<group>";
+		};
+		38BF5C151C0F7F1700B7F613 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				38BF5C181C0F9EAE00B7F613 /* burgerMenu.png */,
+				38BF5C161C0F7F4E00B7F613 /* SportifyLogoFinal.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38BF5BDB1C0F57F600B7F613 /* Sportify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BF5C0C1C0F57F900B7F613 /* Build configuration list for PBXNativeTarget "Sportify" */;
+			buildPhases = (
+				38BF5BD81C0F57F600B7F613 /* Sources */,
+				38BF5BD91C0F57F600B7F613 /* Frameworks */,
+				38BF5BDA1C0F57F600B7F613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sportify;
+			productName = Sportify;
+			productReference = 38BF5BDC1C0F57F700B7F613 /* Sportify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38BF5BF71C0F57F900B7F613 /* SportifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BF5C0F1C0F57F900B7F613 /* Build configuration list for PBXNativeTarget "SportifyTests" */;
+			buildPhases = (
+				38BF5BF41C0F57F900B7F613 /* Sources */,
+				38BF5BF51C0F57F900B7F613 /* Frameworks */,
+				38BF5BF61C0F57F900B7F613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38BF5BFA1C0F57F900B7F613 /* PBXTargetDependency */,
+			);
+			name = SportifyTests;
+			productName = SportifyTests;
+			productReference = 38BF5BF81C0F57F900B7F613 /* SportifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38BF5C021C0F57F900B7F613 /* SportifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BF5C121C0F57F900B7F613 /* Build configuration list for PBXNativeTarget "SportifyUITests" */;
+			buildPhases = (
+				38BF5BFF1C0F57F900B7F613 /* Sources */,
+				38BF5C001C0F57F900B7F613 /* Frameworks */,
+				38BF5C011C0F57F900B7F613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38BF5C051C0F57F900B7F613 /* PBXTargetDependency */,
+			);
+			name = SportifyUITests;
+			productName = SportifyUITests;
+			productReference = 38BF5C031C0F57F900B7F613 /* SportifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38BF5BD41C0F57F600B7F613 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Brian Stacks";
+				TargetAttributes = {
+					38BF5BDB1C0F57F600B7F613 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = LF449WWZZF;
+					};
+					38BF5BF71C0F57F900B7F613 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 38BF5BDB1C0F57F600B7F613;
+					};
+					38BF5C021C0F57F900B7F613 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 38BF5BDB1C0F57F600B7F613;
+					};
+				};
+			};
+			buildConfigurationList = 38BF5BD71C0F57F600B7F613 /* Build configuration list for PBXProject "Sportify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38BF5BD31C0F57F600B7F613;
+			productRefGroup = 38BF5BDD1C0F57F700B7F613 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38BF5BDB1C0F57F600B7F613 /* Sportify */,
+				38BF5BF71C0F57F900B7F613 /* SportifyTests */,
+				38BF5C021C0F57F900B7F613 /* SportifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38BF5BDA1C0F57F600B7F613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BF5BF21C0F57F800B7F613 /* LaunchScreen.storyboard in Resources */,
+				38BF5BEF1C0F57F800B7F613 /* Assets.xcassets in Resources */,
+				38BF5BEA1C0F57F800B7F613 /* Main.storyboard in Resources */,
+				38BF5C191C0F9EAE00B7F613 /* burgerMenu.png in Resources */,
+				38BF5C171C0F7F4E00B7F613 /* SportifyLogoFinal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BF5BF61C0F57F900B7F613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BF5C011C0F57F900B7F613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38BF5BD81C0F57F600B7F613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BF5BE71C0F57F800B7F613 /* ViewController.m in Sources */,
+				38BF5BED1C0F57F800B7F613 /* Sportify.xcdatamodeld in Sources */,
+				38BF5BE41C0F57F800B7F613 /* AppDelegate.m in Sources */,
+				38BF5BE11C0F57F700B7F613 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BF5BF41C0F57F900B7F613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BF5BFD1C0F57F900B7F613 /* SportifyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BF5BFF1C0F57F900B7F613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BF5C081C0F57F900B7F613 /* SportifyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38BF5BFA1C0F57F900B7F613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38BF5BDB1C0F57F600B7F613 /* Sportify */;
+			targetProxy = 38BF5BF91C0F57F900B7F613 /* PBXContainerItemProxy */;
+		};
+		38BF5C051C0F57F900B7F613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38BF5BDB1C0F57F600B7F613 /* Sportify */;
+			targetProxy = 38BF5C041C0F57F900B7F613 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38BF5BE81C0F57F800B7F613 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38BF5BE91C0F57F800B7F613 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38BF5BF01C0F57F800B7F613 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38BF5BF11C0F57F800B7F613 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38BF5C0A1C0F57F900B7F613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Brian Stacks (5B5TF6929R)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "11c2291f-917a-4f2f-a577-0cc3b09b31af";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38BF5C0B1C0F57F900B7F613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Brian Stacks (5B5TF6929R)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "11c2291f-917a-4f2f-a577-0cc3b09b31af";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38BF5C0D1C0F57F900B7F613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Sportify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullsail.stacksApp.Sportify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38BF5C0E1C0F57F900B7F613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Sportify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullsail.stacksApp.Sportify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38BF5C101C0F57F900B7F613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SportifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullsail.stacksApp.SportifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sportify.app/Sportify";
+			};
+			name = Debug;
+		};
+		38BF5C111C0F57F900B7F613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SportifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullsail.stacksApp.SportifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sportify.app/Sportify";
+			};
+			name = Release;
+		};
+		38BF5C131C0F57F900B7F613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SportifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullsail.stacksApp.SportifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sportify;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		38BF5C141C0F57F900B7F613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SportifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullsail.stacksApp.SportifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sportify;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38BF5BD71C0F57F600B7F613 /* Build configuration list for PBXProject "Sportify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BF5C0A1C0F57F900B7F613 /* Debug */,
+				38BF5C0B1C0F57F900B7F613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38BF5C0C1C0F57F900B7F613 /* Build configuration list for PBXNativeTarget "Sportify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BF5C0D1C0F57F900B7F613 /* Debug */,
+				38BF5C0E1C0F57F900B7F613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38BF5C0F1C0F57F900B7F613 /* Build configuration list for PBXNativeTarget "SportifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BF5C101C0F57F900B7F613 /* Debug */,
+				38BF5C111C0F57F900B7F613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38BF5C121C0F57F900B7F613 /* Build configuration list for PBXNativeTarget "SportifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BF5C131C0F57F900B7F613 /* Debug */,
+				38BF5C141C0F57F900B7F613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38BF5BEB1C0F57F800B7F613 /* Sportify.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38BF5BEC1C0F57F800B7F613 /* Sportify.xcdatamodel */,
+			);
+			currentVersion = 38BF5BEC1C0F57F800B7F613 /* Sportify.xcdatamodel */;
+			path = Sportify.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 38BF5BD41C0F57F600B7F613 /* Project object */;
+}
